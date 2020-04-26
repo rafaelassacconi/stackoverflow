@@ -16,7 +16,7 @@ Example of searching questions by tag:
 from stackoverflow.api import StackOverflow
 
 stackoverflow = StackOverflow()
-result_list = stackoverflow.search("python")
+result_list = stackoverflow.search_questions("python")
 
 for item in result_list:
     print(item["title"])
@@ -25,7 +25,7 @@ for item in result_list:
 
 Example of searching questions by multiple tags and max number of results:
 ```
-stackoverflow.search(tags="python;test;tdd", max=5)
+stackoverflow.search_questions(tags="python;test;tdd", max=5)
 ```
 
 ### Tests
