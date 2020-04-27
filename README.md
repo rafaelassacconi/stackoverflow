@@ -28,6 +28,12 @@ Example of searching questions by multiple tags and max number of results:
 stackoverflow.search_questions(tags="python;test;tdd", max=5)
 ```
 
+### Methods
+The first version of this wrapper contains one method:
+| Method | Description |
+| --- | --- |
+| `search_questions` | Returns a list of questions related with the tags used in searching |
+
 ### Tests
 For run the tests, install the `pytest` package and run the command bellow:
 ```
