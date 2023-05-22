@@ -10,7 +10,7 @@ setuptools.setup(
     url="https://github.com/rafaelassacconi/stackoverflow",
 	packages=setuptools.find_packages(),
 	install_requires=[
-		"requests==2.23.0",
+		"requests==2.31.0",
 	],
     python_requires=">=3.6",
 	include_package_data=True,
